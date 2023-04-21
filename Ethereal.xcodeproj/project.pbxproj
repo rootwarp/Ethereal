@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CEB05E729F2879600C33B5A /* EtherealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB05E629F2879600C33B5A /* EtherealApp.swift */; };
+		3CEB05E929F2879600C33B5A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB05E829F2879600C33B5A /* Persistence.swift */; };
+		3CEB05EC29F2879600C33B5A /* Ethereal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB05EA29F2879600C33B5A /* Ethereal.xcdatamodeld */; };
+		3CEB05EE29F2879600C33B5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB05ED29F2879600C33B5A /* ContentView.swift */; };
+		3CEB05F029F2879700C33B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CEB05EF29F2879700C33B5A /* Assets.xcassets */; };
+		3CEB05F429F2879700C33B5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CEB05F329F2879700C33B5A /* Preview Assets.xcassets */; };
+		3CEB05FE29F2879700C33B5A /* EtherealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB05FD29F2879700C33B5A /* EtherealTests.swift */; };
+		3CEB060829F2879700C33B5A /* EtherealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB060729F2879700C33B5A /* EtherealUITests.swift */; };
+		3CEB060A29F2879700C33B5A /* EtherealUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB060929F2879700C33B5A /* EtherealUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CEB05FA29F2879700C33B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CEB05DB29F2879600C33B5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CEB05E229F2879600C33B5A;
+			remoteInfo = Ethereal;
+		};
+		3CEB060429F2879700C33B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CEB05DB29F2879600C33B5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CEB05E229F2879600C33B5A;
+			remoteInfo = Ethereal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CEB05E329F2879600C33B5A /* Ethereal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ethereal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEB05E629F2879600C33B5A /* EtherealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtherealApp.swift; sourceTree = "<group>"; };
+		3CEB05E829F2879600C33B5A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3CEB05EB29F2879600C33B5A /* Ethereal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ethereal.xcdatamodel; sourceTree = "<group>"; };
+		3CEB05ED29F2879600C33B5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CEB05EF29F2879700C33B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CEB05F129F2879700C33B5A /* Ethereal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ethereal.entitlements; sourceTree = "<group>"; };
+		3CEB05F329F2879700C33B5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CEB05F929F2879700C33B5A /* EtherealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtherealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEB05FD29F2879700C33B5A /* EtherealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtherealTests.swift; sourceTree = "<group>"; };
+		3CEB060329F2879700C33B5A /* EtherealUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtherealUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEB060729F2879700C33B5A /* EtherealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtherealUITests.swift; sourceTree = "<group>"; };
+		3CEB060929F2879700C33B5A /* EtherealUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtherealUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CEB05E029F2879600C33B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEB05F629F2879700C33B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEB060029F2879700C33B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CEB05DA29F2879600C33B5A = {
+			isa = PBXGroup;
+			children = (
+				3CEB05E529F2879600C33B5A /* Ethereal */,
+				3CEB05FC29F2879700C33B5A /* EtherealTests */,
+				3CEB060629F2879700C33B5A /* EtherealUITests */,
+				3CEB05E429F2879600C33B5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CEB05E429F2879600C33B5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB05E329F2879600C33B5A /* Ethereal.app */,
+				3CEB05F929F2879700C33B5A /* EtherealTests.xctest */,
+				3CEB060329F2879700C33B5A /* EtherealUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CEB05E529F2879600C33B5A /* Ethereal */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB05E629F2879600C33B5A /* EtherealApp.swift */,
+				3CEB05E829F2879600C33B5A /* Persistence.swift */,
+				3CEB05ED29F2879600C33B5A /* ContentView.swift */,
+				3CEB05EF29F2879700C33B5A /* Assets.xcassets */,
+				3CEB05F129F2879700C33B5A /* Ethereal.entitlements */,
+				3CEB05EA29F2879600C33B5A /* Ethereal.xcdatamodeld */,
+				3CEB05F229F2879700C33B5A /* Preview Content */,
+			);
+			path = Ethereal;
+			sourceTree = "<group>";
+		};
+		3CEB05F229F2879700C33B5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB05F329F2879700C33B5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CEB05FC29F2879700C33B5A /* EtherealTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB05FD29F2879700C33B5A /* EtherealTests.swift */,
+			);
+			path = EtherealTests;
+			sourceTree = "<group>";
+		};
+		3CEB060629F2879700C33B5A /* EtherealUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB060729F2879700C33B5A /* EtherealUITests.swift */,
+				3CEB060929F2879700C33B5A /* EtherealUITestsLaunchTests.swift */,
+			);
+			path = EtherealUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CEB05E229F2879600C33B5A /* Ethereal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEB060D29F2879700C33B5A /* Build configuration list for PBXNativeTarget "Ethereal" */;
+			buildPhases = (
+				3CEB05DF29F2879600C33B5A /* Sources */,
+				3CEB05E029F2879600C33B5A /* Frameworks */,
+				3CEB05E129F2879600C33B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ethereal;
+			productName = Ethereal;
+			productReference = 3CEB05E329F2879600C33B5A /* Ethereal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CEB05F829F2879700C33B5A /* EtherealTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEB061029F2879700C33B5A /* Build configuration list for PBXNativeTarget "EtherealTests" */;
+			buildPhases = (
+				3CEB05F529F2879700C33B5A /* Sources */,
+				3CEB05F629F2879700C33B5A /* Frameworks */,
+				3CEB05F729F2879700C33B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CEB05FB29F2879700C33B5A /* PBXTargetDependency */,
+			);
+			name = EtherealTests;
+			productName = EtherealTests;
+			productReference = 3CEB05F929F2879700C33B5A /* EtherealTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CEB060229F2879700C33B5A /* EtherealUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEB061329F2879700C33B5A /* Build configuration list for PBXNativeTarget "EtherealUITests" */;
+			buildPhases = (
+				3CEB05FF29F2879700C33B5A /* Sources */,
+				3CEB060029F2879700C33B5A /* Frameworks */,
+				3CEB060129F2879700C33B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CEB060529F2879700C33B5A /* PBXTargetDependency */,
+			);
+			name = EtherealUITests;
+			productName = EtherealUITests;
+			productReference = 3CEB060329F2879700C33B5A /* EtherealUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CEB05DB29F2879600C33B5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3CEB05E229F2879600C33B5A = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					3CEB05F829F2879700C33B5A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3CEB05E229F2879600C33B5A;
+					};
+					3CEB060229F2879700C33B5A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3CEB05E229F2879600C33B5A;
+					};
+				};
+			};
+			buildConfigurationList = 3CEB05DE29F2879600C33B5A /* Build configuration list for PBXProject "Ethereal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CEB05DA29F2879600C33B5A;
+			productRefGroup = 3CEB05E429F2879600C33B5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CEB05E229F2879600C33B5A /* Ethereal */,
+				3CEB05F829F2879700C33B5A /* EtherealTests */,
+				3CEB060229F2879700C33B5A /* EtherealUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CEB05E129F2879600C33B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEB05F429F2879700C33B5A /* Preview Assets.xcassets in Resources */,
+				3CEB05F029F2879700C33B5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEB05F729F2879700C33B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEB060129F2879700C33B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CEB05DF29F2879600C33B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEB05E729F2879600C33B5A /* EtherealApp.swift in Sources */,
+				3CEB05EC29F2879600C33B5A /* Ethereal.xcdatamodeld in Sources */,
+				3CEB05EE29F2879600C33B5A /* ContentView.swift in Sources */,
+				3CEB05E929F2879600C33B5A /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEB05F529F2879700C33B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEB05FE29F2879700C33B5A /* EtherealTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEB05FF29F2879700C33B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEB060A29F2879700C33B5A /* EtherealUITestsLaunchTests.swift in Sources */,
+				3CEB060829F2879700C33B5A /* EtherealUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CEB05FB29F2879700C33B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CEB05E229F2879600C33B5A /* Ethereal */;
+			targetProxy = 3CEB05FA29F2879700C33B5A /* PBXContainerItemProxy */;
+		};
+		3CEB060529F2879700C33B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CEB05E229F2879600C33B5A /* Ethereal */;
+			targetProxy = 3CEB060429F2879700C33B5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CEB060B29F2879700C33B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CEB060C29F2879700C33B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3CEB060E29F2879700C33B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ethereal/Ethereal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ethereal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mindhack.ethereal.Ethereal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CEB060F29F2879700C33B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ethereal/Ethereal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ethereal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mindhack.ethereal.Ethereal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CEB061129F2879700C33B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mindhack.ethereal.EtherealTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ethereal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ethereal";
+			};
+			name = Debug;
+		};
+		3CEB061229F2879700C33B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mindhack.ethereal.EtherealTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ethereal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ethereal";
+			};
+			name = Release;
+		};
+		3CEB061429F2879700C33B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mindhack.ethereal.EtherealUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ethereal;
+			};
+			name = Debug;
+		};
+		3CEB061529F2879700C33B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mindhack.ethereal.EtherealUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ethereal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CEB05DE29F2879600C33B5A /* Build configuration list for PBXProject "Ethereal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEB060B29F2879700C33B5A /* Debug */,
+				3CEB060C29F2879700C33B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CEB060D29F2879700C33B5A /* Build configuration list for PBXNativeTarget "Ethereal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEB060E29F2879700C33B5A /* Debug */,
+				3CEB060F29F2879700C33B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CEB061029F2879700C33B5A /* Build configuration list for PBXNativeTarget "EtherealTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEB061129F2879700C33B5A /* Debug */,
+				3CEB061229F2879700C33B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CEB061329F2879700C33B5A /* Build configuration list for PBXNativeTarget "EtherealUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEB061429F2879700C33B5A /* Debug */,
+				3CEB061529F2879700C33B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3CEB05EA29F2879600C33B5A /* Ethereal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3CEB05EB29F2879600C33B5A /* Ethereal.xcdatamodel */,
+			);
+			currentVersion = 3CEB05EB29F2879600C33B5A /* Ethereal.xcdatamodel */;
+			path = Ethereal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3CEB05DB29F2879600C33B5A /* Project object */;
+}
